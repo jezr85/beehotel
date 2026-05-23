@@ -26,7 +26,7 @@ function initBiodiversityMap() {
     const mapElement = document.getElementById('biodiversityMap');
     if (!mapElement) return;
 
-    // Coordenadas de los 5 puntos de monitoreo y biodiversidad en Tuluá
+    // Coordenadas de los 10 puntos de monitoreo y biodiversidad en Tuluá
     const points = [
         {
             name: "Estación Bee Hotel Smart System",
@@ -77,6 +77,56 @@ function initBiodiversityMap() {
             color: "red",
             observation: "Alta pavimentación, pocas áreas verdes y escasos recursos florales para insectos.",
             recommendation: "Implementar techos verdes o muros florales escolares en las cercanías."
+        },
+        {
+            name: "Sendero Ecológico Río Tuluá",
+            lat: 4.0856,
+            lng: -76.1918,
+            type: "Corredor Biológico Ripario",
+            level: "Excelente (Alta Humedad)",
+            color: "green",
+            observation: "Zona ribereña con vegetación densa y constante disponibilidad de agua dulce.",
+            recommendation: "Instalar el sistema para estudiar la influencia de la cercanía al río en las tasas de anidación."
+        },
+        {
+            name: "Parque Céspedes (Centro Histórico)",
+            lat: 4.0838,
+            lng: -76.2008,
+            type: "Plaza Urbana Arbolada",
+            level: "Biodiversidad Media",
+            color: "yellow",
+            observation: "Árboles centenarios grandes que ofrecen sombra, pero rodeado de alto tráfico vehicular y ruido.",
+            recommendation: "Instalar para analizar cómo afecta la contaminación acústica urbana al comportamiento de las abejas."
+        },
+        {
+            name: "Vivero Municipal y Jardín de Polinizadores",
+            lat: 4.0745,
+            lng: -76.2078,
+            type: "Centro de Propagación de Flora",
+            level: "Alta Biodiversidad (Favorable)",
+            color: "green",
+            observation: "Gran cantidad de plántulas nativas y flores en crecimiento permanente. Cuidado controlado.",
+            recommendation: "Ubicación ideal para un hotel de abejas madre para ayudar a repoblar otras zonas urbanas."
+        },
+        {
+            name: "Parque de la Familia (Sector Sur)",
+            lat: 4.0685,
+            lng: -76.1882,
+            type: "Parque Recreativo Vecinal",
+            level: "Biodiversidad Favorable",
+            color: "blue",
+            observation: "Zonas verdes amplias mantenidas por la comunidad. Presencia de pequeños jardines florales.",
+            recommendation: "Punto estratégico para un proyecto pedagógico comunitario que involucre a los vecinos en el cuidado."
+        },
+        {
+            name: "Parque Lineal Río Tuluá (Sector Alvernia)",
+            lat: 4.0722,
+            lng: -76.1912,
+            type: "Parque Lineal Metropolitano",
+            level: "Favorable",
+            color: "blue",
+            observation: "Franja verde de transición entre áreas residenciales y el cauce del río. Alta presencia de aves.",
+            recommendation: "Instalar un Bee Hotel Smart para complementar el monitoreo ambiental del cinturón ecológico de la ciudad."
         }
     ];
 
